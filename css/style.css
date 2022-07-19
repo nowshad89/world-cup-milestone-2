@@ -21,14 +21,14 @@ main{
 .hero{
     display: flex;
     justify-content: space-around;
-    max-height: 646px;
+
     background-color: black;
     padding-top: 33px;
     border-radius: 30px;
     align-items: center;
 }
 .hero-content{
-    max-width: 531px;
+    max-width: 516px;
     max-height: 424;
 }
 .hero-content h1{
@@ -56,11 +56,11 @@ main{
 .hero-image img{
 
     height: auto;
-    position: relative;
-
 
 }
-/* animation: player 5s infinite;
+/*
+    position: relative;
+ animation: player 5s infinite;
   
   @keyframes {
     from {width:0%;}

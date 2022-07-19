@@ -1,0 +1,141 @@
+@media(min-width:0px) and (max-width:1299px){
+    main{
+        margin: 0px 70px;
+    }
+    .hero{
+        padding: 0px 30px;
+    }
+    .hero-content h1 {
+        line-height: 50px;
+
+    }
+}
+
+
+@media(min-width:0px) and (max-width:1199px){
+    
+}
+
+
+@media(min-width:0px) and (max-width:991px){
+    .hero {
+        padding: 50px 40px;
+    }
+    .hero-content{
+        max-width: 316px;
+    }
+    .hero-content h1 {
+        line-height: 40px;
+
+    }
+    .hero-image img {
+        width: 300px;
+    }
+
+    .blog-filter {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        margin-bottom: 20px;
+        background-color: white;
+        justify-content: space-evenly;
+        padding: 0;
+
+    }
+    .blog-filter a {
+        display: inline-block;
+        border: 2px solid rgb(66, 66, 66);
+        margin: 0;
+        padding: 15px 20px ;
+
+    }
+    .blog {
+        flex-direction: column;
+    }
+    .blog-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blog-content article ul li {
+        margin-right: 20px;
+    }
+
+
+    
+}
+@media(min-width:0px) and (max-width:767px){
+    main{
+        margin: 0px 51px;
+    }
+
+    .hero-image img {
+        width: 200px;
+    }
+    .blog-filter {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .blog-filter a {
+        display: inline-block;
+
+    }
+    .blog {
+        flex-direction: column;
+    }
+    .blog-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+@media(min-width:0px) and (max-width:575px){
+    main{
+        margin: 0px 20px ;
+    }
+    .hero {
+        flex-direction: column ;
+        text-align: center;
+    }
+    .hero {
+        padding:40px 30px 0px 30px;
+    }
+    .hero-image img {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .blog-filter {
+        justify-content: space-evenly;
+
+
+    }
+
+}
+@media(min-width:0px) and (max-width:425px){
+    .blog-filter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-filter a {
+        margin-bottom: 10px;
+        width: 50%;
+
+    }
+    .blog-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media(min-width:0px) and (max-width:375px){
+ 
+    
+}
+
+
+@media(min-width:0px) and (max-width:320px){
+
+
+} 
