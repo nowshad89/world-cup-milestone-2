@@ -1,0 +1,140 @@
+/* 
+font family
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+main{
+    max-width: 1321px;
+    margin: auto;
+}
+
+/* -----------------------------------------------------------------------hero start---------------------------------------------- */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    max-height: 646px;
+    background-color: black;
+    padding-top: 33px;
+    border-radius: 30px;
+    align-items: center;
+}
+.hero-content{
+    max-width: 531px;
+    max-height: 424;
+}
+.hero-content h1{
+    font-weight: 700;
+    font-size: 2em;
+    color: #FFFFFF;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+.hero-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+}
+.hero-content a{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px 16px 25px;
+    border-radius: 5px;
+}
+.hero-image img{
+
+    height: auto;
+    position: relative;
+
+
+}
+/* animation: player 5s infinite;
+  
+  @keyframes {
+    from {width:0%;}
+    to {width:60%;}
+  } */
+
+/* -------------------------------------------------------------------------hero end------------------------------------------ */
+/* -------------------------------------------------------------------------blog start------------------------------------------ */
+.blog{
+    margin: 129px 0px;
+    display: flex;
+
+
+
+}
+.blog-filter{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.blog-filter a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 30px;
+
+}
+.blog-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap:30px;
+
+}
+.blog-content article{
+    background-color: FFFFFF;
+
+    
+
+}
+.blog-content article img{
+    width: 100%;
+}
+.blog-content article a{
+
+}
+.blog-content article h3{
+
+}
+.blog-content article ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+.blog-content article ul li{
+    margin-right: 40px;
+
+}
+.blog-content article ul li i{
+    margin-right: 3px;
+    color: black;
+
+}
+
+
+
+/* -------------------------------------------------------------------------blog end------------------------------------------ */
