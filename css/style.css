@@ -70,8 +70,9 @@ main{
 /* -------------------------------------------------------------------------hero end------------------------------------------ */
 /* -------------------------------------------------------------------------blog start------------------------------------------ */
 .blog{
-    margin: 129px 0px;
+    margin: 100px 0px;
     display: flex;
+    justify-content: space-between;
 
 
 
@@ -84,19 +85,28 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    border-radius: 10px;
+    margin-right: 30px;
 }
 .blog-filter a{
     color: black;
     text-decoration: none;
     background-color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 15px 10px 15px;
     border-radius: 5px;
     display: block;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
+    font-weight: 600;
+    transition: 0.5s all ease-in-out;
 
 }
+.blog-filter a:hover{
+    background-color: #DD0000;
+    margin-top: 17px;
+    color: #FFFFFF;
+}
+
 .blog-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -105,18 +115,36 @@ main{
 
 }
 .blog-content article{
-    background-color: FFFFFF;
-
-    
-
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.article-content{
+    padding: 20px;
 }
 .blog-content article img{
     width: 100%;
+    margin-bottom: 10px;
 }
 .blog-content article a{
-
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #161616;
+    font-weight: 600;
+    color: #161616;
+    transition: 1s;
+}
+.blog-content article a:hover{
+    margin-left: 4px;
 }
 .blog-content article h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #161616;
 
 }
 .blog-content article ul{
@@ -127,11 +155,12 @@ main{
 }
 .blog-content article ul li{
     margin-right: 40px;
+    color: #161616;
 
 }
 .blog-content article ul li i{
     margin-right: 3px;
-    color: black;
+    color: #161616;
 
 }
 
