@@ -19,8 +19,6 @@ main{
 
 /* -----------------------------------------------------------------------hero start---------------------------------------------- */
 .hero{
-    /* background-image:linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
-    url('../images/playground1.jpg'); */
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.466), rgba(0, 0, 7, 0.829)),
     url('../images/playground1.jpg');
     background-repeat: no-repeat;
@@ -140,7 +138,7 @@ main{
     color: #FFFFFF;
 }
 .blog-filter a:active{
-    background-color: #DD0000;
+    background-color: #AC5C00;
 }
 
 .blog-content{
@@ -152,13 +150,14 @@ main{
 .blog-content article{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    box-shadow: 6px 5px 10px rgb(68, 68, 68);
     transition: 1s all ease-in-out;
 }
 .article-content{
     padding: 20px;
 }
 .blog-content article:hover{
-    box-shadow: 6px 5px 7px rgb(68, 68, 68);
+    box-shadow: 6px 5px 10px #000074;
 }
 .blog-content article img{
     width: 100%;
@@ -187,6 +186,9 @@ main{
     line-height: 27px;
     font-weight: 800;
     color: #000000;
+}
+.blog-content article:hover  h3{
+    color: #000036;
 }
 .blog-content article ul{
     padding: 0;
@@ -263,10 +265,11 @@ hr{
 .vs-parent-content article{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    box-shadow: 6px 5px 7px rgb(68, 68, 68);
     transition: 1s all ease-in-out;
 }
 .vs-parent-content article:hover{
-    box-shadow: 6px 5px 7px rgb(68, 68, 68);
+    box-shadow: 6px 5px 10px #000074;
 }
 .vs-parent{
     padding: 30px 15px;

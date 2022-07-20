@@ -150,6 +150,9 @@
     .blog-content {
         grid-template-columns: repeat(1, 1fr);
     }
+    .blog {
+        margin: 100px 0px 100px 0px;
+    }
     footer{
 
     }
@@ -161,6 +164,9 @@
     }
     .vs-parent-content {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .view-all-button a{
+        display: none;
     }
 
 }
