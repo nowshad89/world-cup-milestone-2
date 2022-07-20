@@ -212,9 +212,6 @@ footer{
     align-items: center;
     padding: 30px 0px;
 }
-.heading{
-
-}
 .heading h2{
     color: white;
     font-size: 35px;
@@ -246,9 +243,6 @@ hr{
 }
 .social-icon a:hover{
   margin-top: -4px;
-}
-.social-icon a i{
-
 }
 /* -------------------------------------------------------------------------footer end------------------------------------------- */
 
@@ -300,7 +294,4 @@ hr{
     width: 100%;
     text-align: center;
     
-}
-.welcome h2{
-
 }
