@@ -97,6 +97,9 @@
     .blog-content {
         grid-template-columns: repeat(2, 1fr);
     }
+    .vs-parent-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -120,6 +123,9 @@
         justify-content: space-evenly;
 
 
+    }
+    .hero-content {
+        max-width: 100%;
     }
 
 }
@@ -145,6 +151,12 @@
         width: 100%;
         text-align: center;
     }
+    .vs-parent-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
 
 
 @media(min-width:0px) and (max-width:375px){

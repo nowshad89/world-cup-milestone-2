@@ -44,7 +44,6 @@ main{
     color: #FFFFFF;
     line-height: 26px;
     margin-bottom: 30px;
-
 }
 .hero-content a{
     color: #FFFFFF;
@@ -52,13 +51,34 @@ main{
     background-color: #DD0000;
     padding: 16px 25px 16px 25px;
     border-radius: 5px;
+    transition: 1s ease-in-out;
+}
+.hero-content a:hover{
+    margin-left: 6px;
 }
 .hero-image img{
 
     height: auto;
-
+    animation: player 8s infinite linear;
+}
+@keyframes player { 
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    75%{
+        transform: rotateY(270deg);
+    }
+    100%{
+        transform: rotateY(359deg); 
+    }
+    /* from { transform: rotateY(0deg); } 
+    to { transform: rotateY(180deg); }  */
 }
 /*
+@keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } }
     position: relative;
  animation: player 5s infinite;
   
@@ -67,15 +87,15 @@ main{
     to {width:60%;}
   } */
 
-/* -------------------------------------------------------------------------hero end------------------------------------------ */
+/* -------------------------------------------------------------------------hero end------------------------------------------- */
+
+
+
 /* -------------------------------------------------------------------------blog start------------------------------------------ */
 .blog{
     margin: 100px 0px;
     display: flex;
     justify-content: space-between;
-
-
-
 }
 .blog-filter{
     width: 312px;
@@ -99,19 +119,20 @@ main{
     margin: 20px;
     font-weight: 600;
     transition: 0.5s all ease-in-out;
-
 }
 .blog-filter a:hover{
     background-color: #DD0000;
     margin-top: 17px;
     color: #FFFFFF;
 }
+.blog-filter a:active{
+    background-color: #DD0000;
+}
 
 .blog-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
     grid-gap:30px;
-
 }
 .blog-content article{
     border: 1px solid #E8E8E8;
@@ -144,13 +165,11 @@ main{
     line-height: 27px;
     font-weight: 600;
     color: #161616;
-
 }
 .blog-content article ul{
     padding: 0;
     list-style: none;
     display: flex;
-
 }
 .blog-content article ul li{
     margin-right: 40px;
@@ -160,12 +179,11 @@ main{
 .blog-content article ul li i{
     margin-right: 3px;
     color: #161616;
-
 }
-
-
-
 /* -------------------------------------------------------------------------blog end------------------------------------------ */
+
+
+
 /* -------------------------------------------------------------------------footer start---------------------------------------- */
 footer{
     background-color: black;
@@ -181,7 +199,6 @@ footer{
 .heading h2{
     color: white;
     font-size: 35px;
-
 }
 hr{
     color: rgb(39, 39, 39);
@@ -198,3 +215,36 @@ hr{
     text-align: center;
 }
 /* -------------------------------------------------------------------------footer end------------------------------------------- */
+
+
+/* --------------------------------------------------------------------upcomming-match-start------------------------------------ */
+.vs-parent-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap:30px;
+    width: 100%;
+
+}
+.vs-parent-content article{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.vs-parent{
+    padding: 30px 15px;
+}
+.vs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vs img{
+    width: 40%;
+
+}
+.vs h2{
+
+}
+.vs-content{
+    text-align: center;
+}
+/* --------------------------------------------------------------------upcomming-match-end------------------------------------ */
