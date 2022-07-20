@@ -179,8 +179,13 @@ footer{
 
 }
 .heading h2{
-color: white;
+    color: white;
+    font-size: 35px;
 
+}
+hr{
+    color: rgb(39, 39, 39);
+    width: 80%;
 }
 .footer-content{
     width: 898px;
@@ -190,5 +195,6 @@ color: white;
 }
 .footer-content p{
     color: white;
+    text-align: center;
 }
 /* -------------------------------------------------------------------------footer end------------------------------------------- */
