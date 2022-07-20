@@ -247,6 +247,10 @@ hr{
 }
 .social-icon a{
     color: white;
+    transition: 0.5s all ease-in-out;
+}
+.social-icon a:hover{
+  margin-top: -4px;
 }
 .social-icon a i{
 
@@ -287,6 +291,9 @@ hr{
 
     font-weight: 800;
     color: black;
+}
+.vs-parent-content article:hover  h3{
+    color: #000036;
 }
 .vs-content{
     text-align: center;
