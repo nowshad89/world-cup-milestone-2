@@ -1,3 +1,8 @@
+@media(min-width:0px) and (max-width:2560px){
+    .view-all-button{
+        display:none;
+    }
+}
 @media(min-width:0px) and (max-width:1299px){
     main{
         margin: 0px 70px;
@@ -13,7 +18,6 @@
 
 
 @media(min-width:0px) and (max-width:1199px){
-    
 }
 
 
@@ -93,9 +97,13 @@
     }
     .blog {
         flex-direction: column;
+        margin: 100px 0px 0px 0px;
     }
     .blog-content {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .view-all-button{
+        display:block;
     }
     .vs-parent-content {
         grid-template-columns: repeat(2, 1fr);
